@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aura1/PlacesTableViewCell.swift"
+            timestampString = "478213607.405653"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.PlacesTableViewCell.init (Aura1.PlacesTableViewCell.Type)(style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; Aura1.PlacesTableViewCell"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/PlacesTableViewCell.swift"
+                  timestampString = "478619711.200411"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.PlacesTableViewCell.init (Aura1.PlacesTableViewCell.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Aura1.PlacesTableViewCell&gt;"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/PlacesTableViewCell.swift"
+                  timestampString = "478619711.200591"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aura1/PlacesTableViewCell.swift"
+            timestampString = "478215519.226509"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.PlacesTableViewCell.__deallocating_deinit"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/PlacesTableViewCell.swift"
+                  timestampString = "478619711.202746"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.PlacesTableViewCell.init (Aura1.PlacesTableViewCell.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Aura1.PlacesTableViewCell&gt;"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/PlacesTableViewCell.swift"
+                  timestampString = "478619711.203136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aura1/ViewController.swift"
+            timestampString = "478456425.513125"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3"
+            endingLineNumber = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.ViewController.__deallocating_deinit"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/ViewController.swift"
+                  timestampString = "478619711.204641"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.ViewController.init (Aura1.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Aura1.ViewController"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/ViewController.swift"
+                  timestampString = "478619711.204768"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aura1/ViewController.swift"
+            timestampString = "478588462.456048"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.ViewController.__deallocating_deinit"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/ViewController.swift"
+                  timestampString = "478619711.206074"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.ViewController.init (Aura1.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Aura1.ViewController"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/ViewController.swift"
+                  timestampString = "478619711.206227"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.ViewController.init (Aura1.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Aura1.ViewController&gt;"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/ViewController.swift"
+                  timestampString = "478619711.206501"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aura1/ViewController.swift"
+            timestampString = "478588466.233429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.ViewController.__deallocating_deinit"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/ViewController.swift"
+                  timestampString = "478619711.207901"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.ViewController.init (Aura1.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Aura1.ViewController"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/ViewController.swift"
+                  timestampString = "478619711.208151"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.ViewController.init (Aura1.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Aura1.ViewController&gt;"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/ViewController.swift"
+                  timestampString = "478619711.208277"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aura1/TableController.swift"
+            timestampString = "478626195.580376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "TableController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aura1/AppDelegate.swift"
+            timestampString = "478628404.212285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.AppDelegate.__deallocating_deinit"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/AppDelegate.swift"
+                  timestampString = "478628404.220858"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura1.AppDelegate.init (Aura1.AppDelegate.Type)() -&gt; Aura1.AppDelegate"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/AppDelegate.swift"
+                  timestampString = "478628404.221068"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Aura1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolajara/Desktop/Aura1/Aura1/AppDelegate.swift"
+                  timestampString = "478628404.221167"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

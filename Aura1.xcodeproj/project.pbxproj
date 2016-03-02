@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2858BF1C1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png in Resources */ = {isa = PBXBuildFile; fileRef = 2858BF1B1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png */; };
+		2858BF1E1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 2858BF1D1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png */; };
+		2858BF241C873F5E00D5784C /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858BF231C873F5E00D5784C /* Places.swift */; };
+		2858BF261C87403D00D5784C /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858BF251C87403D00D5784C /* TableController.swift */; };
+		2858BF281C87423500D5784C /* IMG_0678.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2858BF271C87423500D5784C /* IMG_0678.JPG */; };
+		28EBEBC71C80D8560010738E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBC61C80D8560010738E /* AppDelegate.swift */; };
+		28EBEBC91C80D8560010738E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBC81C80D8560010738E /* ViewController.swift */; };
+		28EBEBCC1C80D8560010738E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EBEBCA1C80D8560010738E /* Main.storyboard */; };
+		28EBEBCE1C80D8560010738E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EBEBCD1C80D8560010738E /* Assets.xcassets */; };
+		28EBEBD11C80D8560010738E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EBEBCF1C80D8560010738E /* LaunchScreen.storyboard */; };
+		28EBEBDC1C80D8560010738E /* Aura1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBDB1C80D8560010738E /* Aura1Tests.swift */; };
+		28EBEBE71C80D8560010738E /* Aura1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBE61C80D8560010738E /* Aura1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28EBEBD81C80D8560010738E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EBEBBB1C80D8560010738E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EBEBC21C80D8560010738E;
+			remoteInfo = Aura1;
+		};
+		28EBEBE31C80D8560010738E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28EBEBBB1C80D8560010738E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28EBEBC21C80D8560010738E;
+			remoteInfo = Aura1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2858BF1B1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"; path = "../../114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"; sourceTree = "<group>"; };
+		2858BF1D1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png"; path = "../../114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png"; sourceTree = "<group>"; };
+		2858BF231C873F5E00D5784C /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		2858BF251C87403D00D5784C /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		2858BF271C87423500D5784C /* IMG_0678.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0678.JPG; path = "../../../Pictures/Photos Library.photoslibrary/Masters/2016/02/25/20160225-174026/IMG_0678.JPG"; sourceTree = "<group>"; };
+		28EBEBC31C80D8560010738E /* Aura1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aura1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EBEBC61C80D8560010738E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28EBEBC81C80D8560010738E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28EBEBCB1C80D8560010738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28EBEBCD1C80D8560010738E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28EBEBD01C80D8560010738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28EBEBD21C80D8560010738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EBEBD71C80D8560010738E /* Aura1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aura1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EBEBDB1C80D8560010738E /* Aura1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aura1Tests.swift; sourceTree = "<group>"; };
+		28EBEBDD1C80D8560010738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EBEBE21C80D8560010738E /* Aura1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aura1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EBEBE61C80D8560010738E /* Aura1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aura1UITests.swift; sourceTree = "<group>"; };
+		28EBEBE81C80D8560010738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EBEBC01C80D8560010738E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EBEBD41C80D8560010738E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EBEBDF1C80D8560010738E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28EBEBBA1C80D8560010738E = {
+			isa = PBXGroup;
+			children = (
+				28EBEBC51C80D8560010738E /* Aura1 */,
+				28EBEBDA1C80D8560010738E /* Aura1Tests */,
+				28EBEBE51C80D8560010738E /* Aura1UITests */,
+				28EBEBC41C80D8560010738E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28EBEBC41C80D8560010738E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28EBEBC31C80D8560010738E /* Aura1.app */,
+				28EBEBD71C80D8560010738E /* Aura1Tests.xctest */,
+				28EBEBE21C80D8560010738E /* Aura1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EBEBC51C80D8560010738E /* Aura1 */ = {
+			isa = PBXGroup;
+			children = (
+				2858BF271C87423500D5784C /* IMG_0678.JPG */,
+				2858BF1D1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png */,
+				28EBEBC61C80D8560010738E /* AppDelegate.swift */,
+				28EBEBC81C80D8560010738E /* ViewController.swift */,
+				2858BF251C87403D00D5784C /* TableController.swift */,
+				2858BF231C873F5E00D5784C /* Places.swift */,
+				28EBEBCA1C80D8560010738E /* Main.storyboard */,
+				2858BF1B1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png */,
+				28EBEBCD1C80D8560010738E /* Assets.xcassets */,
+				28EBEBCF1C80D8560010738E /* LaunchScreen.storyboard */,
+				28EBEBD21C80D8560010738E /* Info.plist */,
+			);
+			path = Aura1;
+			sourceTree = "<group>";
+		};
+		28EBEBDA1C80D8560010738E /* Aura1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28EBEBDB1C80D8560010738E /* Aura1Tests.swift */,
+				28EBEBDD1C80D8560010738E /* Info.plist */,
+			);
+			path = Aura1Tests;
+			sourceTree = "<group>";
+		};
+		28EBEBE51C80D8560010738E /* Aura1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				28EBEBE61C80D8560010738E /* Aura1UITests.swift */,
+				28EBEBE81C80D8560010738E /* Info.plist */,
+			);
+			path = Aura1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28EBEBC21C80D8560010738E /* Aura1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EBEBEB1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1" */;
+			buildPhases = (
+				28EBEBBF1C80D8560010738E /* Sources */,
+				28EBEBC01C80D8560010738E /* Frameworks */,
+				28EBEBC11C80D8560010738E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aura1;
+			productName = Aura1;
+			productReference = 28EBEBC31C80D8560010738E /* Aura1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28EBEBD61C80D8560010738E /* Aura1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EBEBEE1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1Tests" */;
+			buildPhases = (
+				28EBEBD31C80D8560010738E /* Sources */,
+				28EBEBD41C80D8560010738E /* Frameworks */,
+				28EBEBD51C80D8560010738E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EBEBD91C80D8560010738E /* PBXTargetDependency */,
+			);
+			name = Aura1Tests;
+			productName = Aura1Tests;
+			productReference = 28EBEBD71C80D8560010738E /* Aura1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28EBEBE11C80D8560010738E /* Aura1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EBEBF11C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1UITests" */;
+			buildPhases = (
+				28EBEBDE1C80D8560010738E /* Sources */,
+				28EBEBDF1C80D8560010738E /* Frameworks */,
+				28EBEBE01C80D8560010738E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28EBEBE41C80D8560010738E /* PBXTargetDependency */,
+			);
+			name = Aura1UITests;
+			productName = Aura1UITests;
+			productReference = 28EBEBE21C80D8560010738E /* Aura1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28EBEBBB1C80D8560010738E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					28EBEBC21C80D8560010738E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T3NDD976PY;
+					};
+					28EBEBD61C80D8560010738E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T3NDD976PY;
+						TestTargetID = 28EBEBC21C80D8560010738E;
+					};
+					28EBEBE11C80D8560010738E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T3NDD976PY;
+						TestTargetID = 28EBEBC21C80D8560010738E;
+					};
+				};
+			};
+			buildConfigurationList = 28EBEBBE1C80D8560010738E /* Build configuration list for PBXProject "Aura1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28EBEBBA1C80D8560010738E;
+			productRefGroup = 28EBEBC41C80D8560010738E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28EBEBC21C80D8560010738E /* Aura1 */,
+				28EBEBD61C80D8560010738E /* Aura1Tests */,
+				28EBEBE11C80D8560010738E /* Aura1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28EBEBC11C80D8560010738E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2858BF281C87423500D5784C /* IMG_0678.JPG in Resources */,
+				2858BF1E1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png in Resources */,
+				2858BF1C1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png in Resources */,
+				28EBEBD11C80D8560010738E /* LaunchScreen.storyboard in Resources */,
+				28EBEBCE1C80D8560010738E /* Assets.xcassets in Resources */,
+				28EBEBCC1C80D8560010738E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EBEBD51C80D8560010738E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EBEBE01C80D8560010738E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EBEBBF1C80D8560010738E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EBEBC91C80D8560010738E /* ViewController.swift in Sources */,
+				28EBEBC71C80D8560010738E /* AppDelegate.swift in Sources */,
+				2858BF261C87403D00D5784C /* TableController.swift in Sources */,
+				2858BF241C873F5E00D5784C /* Places.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EBEBD31C80D8560010738E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EBEBDC1C80D8560010738E /* Aura1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EBEBDE1C80D8560010738E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EBEBE71C80D8560010738E /* Aura1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28EBEBD91C80D8560010738E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EBEBC21C80D8560010738E /* Aura1 */;
+			targetProxy = 28EBEBD81C80D8560010738E /* PBXContainerItemProxy */;
+		};
+		28EBEBE41C80D8560010738E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28EBEBC21C80D8560010738E /* Aura1 */;
+			targetProxy = 28EBEBE31C80D8560010738E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28EBEBCA1C80D8560010738E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EBEBCB1C80D8560010738E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28EBEBCF1C80D8560010738E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28EBEBD01C80D8560010738E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28EBEBE91C80D8560010738E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28EBEBEA1C80D8560010738E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28EBEBEC1C80D8560010738E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aura1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28EBEBED1C80D8560010738E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Aura1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28EBEBEF1C80D8560010738E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Aura1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aura1.app/Aura1";
+			};
+			name = Debug;
+		};
+		28EBEBF01C80D8560010738E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Aura1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aura1.app/Aura1";
+			};
+			name = Release;
+		};
+		28EBEBF21C80D8560010738E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Aura1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aura1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		28EBEBF31C80D8560010738E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Aura1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Aura1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28EBEBBE1C80D8560010738E /* Build configuration list for PBXProject "Aura1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EBEBE91C80D8560010738E /* Debug */,
+				28EBEBEA1C80D8560010738E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EBEBEB1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EBEBEC1C80D8560010738E /* Debug */,
+				28EBEBED1C80D8560010738E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EBEBEE1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EBEBEF1C80D8560010738E /* Debug */,
+				28EBEBF01C80D8560010738E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EBEBF11C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28EBEBF21C80D8560010738E /* Debug */,
+				28EBEBF31C80D8560010738E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28EBEBBB1C80D8560010738E /* Project object */;
+}
