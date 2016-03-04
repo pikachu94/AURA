@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uMg-Fv-R2s">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -19,12 +19,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0678.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="0NE-kS-grI">
-                                <rect key="frame" x="66" y="164" width="188" height="240"/>
+                                <rect key="frame" x="66" y="104" width="188" height="360"/>
                                 <color key="backgroundColor" red="0.21396396915278845" green="0.0" blue="0.28200085335181191" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="188" id="ZTc-rD-f1C"/>
-                                    <constraint firstAttribute="height" constant="240" id="dWL-Pr-npU"/>
-                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.15401861333538658" green="0.0" blue="0.15369949190671606" alpha="1" colorSpace="calibratedRGB"/>
@@ -35,18 +31,15 @@
                             <constraint firstItem="0NE-kS-grI" firstAttribute="leading" secondItem="dGf-yv-Mq9" secondAttribute="leadingMargin" constant="50" id="YyN-on-Xj6"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="modal" id="DOc-hT-c9o"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezt-5d-ku7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-601" y="280"/>
+            <point key="canvasLocation" x="-679" y="278"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Aura1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondVC" id="BYZ-38-t0r" customClass="MainScreen" customModule="Aura1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ml0-NR-gOm"/>
                         <viewControllerLayoutGuide type="bottom" id="pvU-yz-coS"/>
@@ -103,72 +96,59 @@
                                     <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="0.55992138319999996" blue="0.92852128450000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8lL-s6-w6O"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiJ-di-wWw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiJ-di-wWw" customClass="CheckBox" customModule="Aura1" customModuleProvider="target">
                                 <rect key="frame" x="21" y="200" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="FF5-ts-fMv"/>
                                     <constraint firstAttribute="height" constant="30" id="jPl-Nu-1vm"/>
                                 </constraints>
-                                <state key="normal" image="114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"/>
-                                <state key="selected" image="114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"/>
-                                <connections>
-                                    <action selector="checkAction2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q73-Xq-4Fs"/>
-                                </connections>
+                                <state key="normal" image="uncheckedImage.png"/>
+                                <state key="selected" image="uncheckedImage.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnL-dq-A72">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnL-dq-A72" customClass="CheckBox" customModule="Aura1" customModuleProvider="target">
                                 <rect key="frame" x="21" y="255" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="J2p-V3-dJ8"/>
                                     <constraint firstAttribute="width" constant="30" id="l8J-aM-uuU"/>
                                 </constraints>
-                                <state key="normal" image="114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"/>
+                                <state key="normal" image="uncheckedImage.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvU-bW-H36">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvU-bW-H36" customClass="CheckBox" customModule="Aura1" customModuleProvider="target">
                                 <rect key="frame" x="21" y="310" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="IpJ-Mg-GhZ"/>
                                     <constraint firstAttribute="height" constant="30" id="TXd-Ef-Bf0"/>
                                 </constraints>
-                                <state key="normal" image="114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"/>
-                                <connections>
-                                    <action selector="checkAction3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Igv-wl-pxc"/>
-                                    <action selector="checkAction4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vOm-rn-N1K"/>
-                                </connections>
+                                <state key="normal" image="uncheckedImage.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ay3-Im-lSf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ay3-Im-lSf" customClass="CheckBox" customModule="Aura1" customModuleProvider="target">
                                 <rect key="frame" x="21" y="420" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Om1-J2-BWz"/>
                                     <constraint firstAttribute="height" constant="30" id="T7V-nN-UCj"/>
                                 </constraints>
-                                <state key="normal" image="114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"/>
-                                <connections>
-                                    <action selector="checkAction6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oj7-gE-VJU"/>
-                                </connections>
+                                <state key="normal" image="uncheckedImage.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qt-Pe-ZSN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qt-Pe-ZSN" customClass="CheckBox" customModule="Aura1" customModuleProvider="target">
                                 <rect key="frame" x="21" y="365" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Hjc-26-fYm"/>
                                     <constraint firstAttribute="width" constant="30" id="wmz-wx-Kpu"/>
                                 </constraints>
-                                <state key="normal" image="114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"/>
-                                <connections>
-                                    <action selector="checkAction5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uc3-fY-A0x"/>
-                                </connections>
+                                <state key="normal" image="uncheckedImage.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziu-cJ-d85">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziu-cJ-d85" customClass="CheckBox" customModule="Aura1" customModuleProvider="target">
                                 <rect key="frame" x="17" y="145" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="7YV-N6-lDT"/>
                                     <constraint firstAttribute="height" constant="30" id="lxW-jc-JqV"/>
                                 </constraints>
-                                <state key="selected" image="114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"/>
-                                <connections>
-                                    <action selector="check1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1v-OK-6p2"/>
-                                    <action selector="checkAction1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F6q-Ew-3Ll"/>
-                                </connections>
+                                <state key="normal" image="uncheckedImage.png"/>
+                                <state key="selected" image="uncheckedImage.png"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -206,66 +186,69 @@
                             <constraint firstItem="z0F-NU-zF3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zwh-oV-wYQ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="HRo-wM-qYd"/>
                     <connections>
-                        <outlet property="checkAction4" destination="9Qt-Pe-ZSN" id="P3Y-us-zra"/>
-                        <outlet property="checkAction5" destination="Ay3-Im-lSf" id="G4d-4z-M2p"/>
-                        <outlet property="checkBox1" destination="ziu-cJ-d85" id="Zzd-It-tlC"/>
-                        <outlet property="checkBox2" destination="iiJ-di-wWw" id="OJ9-Pg-uSY"/>
-                        <outlet property="checkBox3" destination="rnL-dq-A72" id="Kf4-zr-W9E"/>
-                        <outlet property="checkBox4" destination="9Qt-Pe-ZSN" id="BfN-90-PTJ"/>
-                        <outlet property="checkBox5" destination="Ay3-Im-lSf" id="Kvw-Eh-K6G"/>
-                        <outlet property="checkBox6" destination="Ay3-Im-lSf" id="nFT-4a-3nh"/>
+                        <outlet property="checkBox1" destination="ziu-cJ-d85" id="QIw-KV-2Lf"/>
+                        <outlet property="checkBox2" destination="iiJ-di-wWw" id="QtH-N9-w8Y"/>
+                        <outlet property="checkBox3" destination="rnL-dq-A72" id="C7y-Mf-hl7"/>
+                        <outlet property="checkBox4" destination="uvU-bW-H36" id="sqa-sb-dNt"/>
+                        <outlet property="checkBox5" destination="9Qt-Pe-ZSN" id="JbS-RY-YEl"/>
+                        <outlet property="checkBox6" destination="Ay3-Im-lSf" id="RHX-RO-nQX"/>
+                        <outlet property="goToButton" destination="kc3-tP-OP0" id="Gz7-k8-Lxa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-228" y="492"/>
+            <point key="canvasLocation" x="-192" y="104"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="5ML-yV-HfP">
+        <!--Places Table View Controller-->
+        <scene sceneID="1c0-4B-SY0">
             <objects>
-                <viewController id="4Hf-jI-OA8" customClass="ViewController" customModule="Aura1" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ROl-y9-Pk3"/>
-                        <viewControllerLayoutGuide type="bottom" id="rAw-aJ-KCV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="XFh-bS-hev">
+                <tableViewController storyboardIdentifier="thirdVC" id="oEN-Xv-8of" customClass="PlacesTableViewController" customModule="Aura1" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="66b-WT-0NK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pEz-XS-vbu">
-                                <rect key="frame" x="0.0" y="28" width="320" height="540"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="bLG-di-kWM"/>
-                                    <constraint firstAttribute="height" constant="540" id="bSr-Lp-Wg6"/>
-                                </constraints>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="XtO-cb-kOR">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XtO-cb-kOR" id="OU9-p2-D1w">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="pEz-XS-vbu" firstAttribute="top" secondItem="ROl-y9-Pk3" secondAttribute="bottom" constant="8" id="IJe-NX-DrN"/>
-                            <constraint firstItem="pEz-XS-vbu" firstAttribute="centerX" secondItem="XFh-bS-hev" secondAttribute="centerX" id="Vwl-yL-3gD"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bWf-LQ-2qF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellIdentifier" rowHeight="90" id="nRk-ot-TfO" customClass="PlacesTableViewCell" customModule="Aura1" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="320" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nRk-ot-TfO" id="4cl-qW-Jgc">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yU8-E8-bDK">
+                                            <rect key="frame" x="14" y="0.0" width="219" height="23"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EJB-Up-Hj8">
+                                            <rect key="frame" x="14" y="44" width="256" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionPlace" destination="EJB-Up-Hj8" id="7Ka-Nz-mMX"/>
+                                    <outlet property="namePlace" destination="yU8-E8-bDK" id="Xyw-fd-AH2"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="oEN-Xv-8of" id="bKt-1E-yXa"/>
+                            <outlet property="delegate" destination="oEN-Xv-8of" id="4Nd-VE-ZXe"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DW4-ZL-rHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182" y="492"/>
+            <point key="canvasLocation" x="393" y="115"/>
         </scene>
     </scenes>
     <resources>
-        <image name="114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png" width="256" height="256"/>
         <image name="IMG_0678.JPG" width="360" height="360"/>
+        <image name="uncheckedImage.png" width="256" height="256"/>
     </resources>
 </document>

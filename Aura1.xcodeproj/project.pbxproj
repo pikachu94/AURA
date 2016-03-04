@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2858BF1C1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png in Resources */ = {isa = PBXBuildFile; fileRef = 2858BF1B1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png */; };
-		2858BF1E1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 2858BF1D1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png */; };
-		2858BF241C873F5E00D5784C /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858BF231C873F5E00D5784C /* Places.swift */; };
-		2858BF261C87403D00D5784C /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858BF251C87403D00D5784C /* TableController.swift */; };
 		2858BF281C87423500D5784C /* IMG_0678.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2858BF271C87423500D5784C /* IMG_0678.JPG */; };
+		2859DED01C8A06C300397453 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DECF1C8A06C300397453 /* CheckBox.swift */; };
+		2859DED31C8A076A00397453 /* uncheckedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2859DED11C8A076A00397453 /* uncheckedImage.png */; };
+		2859DED41C8A076A00397453 /* checkedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2859DED21C8A076A00397453 /* checkedImage.png */; };
+		2859DED61C8A0F4100397453 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DED51C8A0F4100397453 /* MainScreen.swift */; };
+		2859DEE21C8A29DE00397453 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DEE11C8A29DE00397453 /* PlacesTableViewCell.swift */; };
+		2859DEE41C8A2B7400397453 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DEE31C8A2B7400397453 /* Place.swift */; };
+		28A1C46F1C89FC24003233B6 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1C46E1C89FC24003233B6 /* PlacesTableViewController.swift */; };
 		28EBEBC71C80D8560010738E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBC61C80D8560010738E /* AppDelegate.swift */; };
 		28EBEBC91C80D8560010738E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBC81C80D8560010738E /* ViewController.swift */; };
 		28EBEBCC1C80D8560010738E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EBEBCA1C80D8560010738E /* Main.storyboard */; };
@@ -39,11 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2858BF1B1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"; path = "../../114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png"; sourceTree = "<group>"; };
-		2858BF1D1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png"; path = "../../114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png"; sourceTree = "<group>"; };
-		2858BF231C873F5E00D5784C /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
-		2858BF251C87403D00D5784C /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		2858BF271C87423500D5784C /* IMG_0678.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0678.JPG; path = "../../../Pictures/Photos Library.photoslibrary/Masters/2016/02/25/20160225-174026/IMG_0678.JPG"; sourceTree = "<group>"; };
+		2859DECF1C8A06C300397453 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		2859DED11C8A076A00397453 /* uncheckedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uncheckedImage.png; path = ../../uncheckedImage.png; sourceTree = "<group>"; };
+		2859DED21C8A076A00397453 /* checkedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkedImage.png; path = ../../checkedImage.png; sourceTree = "<group>"; };
+		2859DED51C8A0F4100397453 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		2859DEE11C8A29DE00397453 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesTableViewCell.swift; path = ../PlacesTableViewCell.swift; sourceTree = "<group>"; };
+		2859DEE31C8A2B7400397453 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = ../Place.swift; sourceTree = "<group>"; };
+		28A1C46E1C89FC24003233B6 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesTableViewController.swift; path = ../PlacesTableViewController.swift; sourceTree = "<group>"; };
 		28EBEBC31C80D8560010738E /* Aura1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aura1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBEBC61C80D8560010738E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28EBEBC81C80D8560010738E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,14 +113,17 @@
 		28EBEBC51C80D8560010738E /* Aura1 */ = {
 			isa = PBXGroup;
 			children = (
+				2859DEE31C8A2B7400397453 /* Place.swift */,
+				2859DED11C8A076A00397453 /* uncheckedImage.png */,
+				2859DED21C8A076A00397453 /* checkedImage.png */,
+				28A1C46E1C89FC24003233B6 /* PlacesTableViewController.swift */,
+				2859DEE11C8A29DE00397453 /* PlacesTableViewCell.swift */,
 				2858BF271C87423500D5784C /* IMG_0678.JPG */,
-				2858BF1D1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png */,
 				28EBEBC61C80D8560010738E /* AppDelegate.swift */,
 				28EBEBC81C80D8560010738E /* ViewController.swift */,
-				2858BF251C87403D00D5784C /* TableController.swift */,
-				2858BF231C873F5E00D5784C /* Places.swift */,
+				2859DECF1C8A06C300397453 /* CheckBox.swift */,
 				28EBEBCA1C80D8560010738E /* Main.storyboard */,
-				2858BF1B1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png */,
+				2859DED51C8A0F4100397453 /* MainScreen.swift */,
 				28EBEBCD1C80D8560010738E /* Assets.xcassets */,
 				28EBEBCF1C80D8560010738E /* LaunchScreen.storyboard */,
 				28EBEBD21C80D8560010738E /* Info.plist */,
@@ -247,10 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2859DED31C8A076A00397453 /* uncheckedImage.png in Resources */,
 				2858BF281C87423500D5784C /* IMG_0678.JPG in Resources */,
-				2858BF1E1C86B14B00D5784C /* 114328-glowing-purple-neon-icon-symbols-shapes-check-in-box.png in Resources */,
-				2858BF1C1C86B13B00D5784C /* 114327-glowing-purple-neon-icon-symbols-shapes-check-box-ps.png in Resources */,
 				28EBEBD11C80D8560010738E /* LaunchScreen.storyboard in Resources */,
+				2859DED41C8A076A00397453 /* checkedImage.png in Resources */,
 				28EBEBCE1C80D8560010738E /* Assets.xcassets in Resources */,
 				28EBEBCC1C80D8560010738E /* Main.storyboard in Resources */,
 			);
@@ -278,9 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				28EBEBC91C80D8560010738E /* ViewController.swift in Sources */,
+				28A1C46F1C89FC24003233B6 /* PlacesTableViewController.swift in Sources */,
+				2859DED61C8A0F4100397453 /* MainScreen.swift in Sources */,
 				28EBEBC71C80D8560010738E /* AppDelegate.swift in Sources */,
-				2858BF261C87403D00D5784C /* TableController.swift in Sources */,
-				2858BF241C873F5E00D5784C /* Places.swift in Sources */,
+				2859DED01C8A06C300397453 /* CheckBox.swift in Sources */,
+				2859DEE41C8A2B7400397453 /* Place.swift in Sources */,
+				2859DEE21C8A29DE00397453 /* PlacesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
