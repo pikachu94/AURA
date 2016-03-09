@@ -12,6 +12,7 @@ class PlacesTableViewCell: UITableViewCell {
     
     @IBOutlet weak var namePlace: UILabel!
     @IBOutlet weak var descriptionPlace: UITextField!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
