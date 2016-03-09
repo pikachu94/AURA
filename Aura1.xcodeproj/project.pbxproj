@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2858BF281C87423500D5784C /* IMG_0678.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2858BF271C87423500D5784C /* IMG_0678.JPG */; };
 		2859DED01C8A06C300397453 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DECF1C8A06C300397453 /* CheckBox.swift */; };
-		2859DED31C8A076A00397453 /* uncheckedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2859DED11C8A076A00397453 /* uncheckedImage.png */; };
-		2859DED41C8A076A00397453 /* checkedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2859DED21C8A076A00397453 /* checkedImage.png */; };
 		2859DED61C8A0F4100397453 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DED51C8A0F4100397453 /* MainScreen.swift */; };
 		2859DEE21C8A29DE00397453 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DEE11C8A29DE00397453 /* PlacesTableViewCell.swift */; };
 		2859DEE41C8A2B7400397453 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DEE31C8A2B7400397453 /* Place.swift */; };
@@ -22,6 +19,9 @@
 		28EBEBD11C80D8560010738E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EBEBCF1C80D8560010738E /* LaunchScreen.storyboard */; };
 		28EBEBDC1C80D8560010738E /* Aura1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBDB1C80D8560010738E /* Aura1Tests.swift */; };
 		28EBEBE71C80D8560010738E /* Aura1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBE61C80D8560010738E /* Aura1UITests.swift */; };
+		8BA8872D1C8E6D8100A67A8A /* IMG_0678.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8872C1C8E6D8100A67A8A /* IMG_0678.jpg */; settings = {ASSET_TAGS = (); }; };
+		8BA887301C8E6DA500A67A8A /* checkedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8872E1C8E6DA500A67A8A /* checkedImage.png */; settings = {ASSET_TAGS = (); }; };
+		8BA887311C8E6DA500A67A8A /* uncheckedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8872F1C8E6DA500A67A8A /* uncheckedImage.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2858BF271C87423500D5784C /* IMG_0678.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0678.JPG; path = "../../../Pictures/Photos Library.photoslibrary/Masters/2016/02/25/20160225-174026/IMG_0678.JPG"; sourceTree = "<group>"; };
 		2859DECF1C8A06C300397453 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		2859DED11C8A076A00397453 /* uncheckedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uncheckedImage.png; path = ../../uncheckedImage.png; sourceTree = "<group>"; };
-		2859DED21C8A076A00397453 /* checkedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkedImage.png; path = ../../checkedImage.png; sourceTree = "<group>"; };
 		2859DED51C8A0F4100397453 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		2859DEE11C8A29DE00397453 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesTableViewCell.swift; path = ../PlacesTableViewCell.swift; sourceTree = "<group>"; };
 		2859DEE31C8A2B7400397453 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = ../Place.swift; sourceTree = "<group>"; };
@@ -63,6 +60,9 @@
 		28EBEBE21C80D8560010738E /* Aura1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aura1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBEBE61C80D8560010738E /* Aura1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aura1UITests.swift; sourceTree = "<group>"; };
 		28EBEBE81C80D8560010738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA8872C1C8E6D8100A67A8A /* IMG_0678.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0678.jpg; path = ../../IMG_0678.jpg; sourceTree = "<group>"; };
+		8BA8872E1C8E6DA500A67A8A /* checkedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkedImage.png; sourceTree = SOURCE_ROOT; };
+		8BA8872F1C8E6DA500A67A8A /* uncheckedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheckedImage.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				2859DEE31C8A2B7400397453 /* Place.swift */,
-				2859DED11C8A076A00397453 /* uncheckedImage.png */,
-				2859DED21C8A076A00397453 /* checkedImage.png */,
+				8BA8872E1C8E6DA500A67A8A /* checkedImage.png */,
+				8BA8872F1C8E6DA500A67A8A /* uncheckedImage.png */,
 				28A1C46E1C89FC24003233B6 /* PlacesTableViewController.swift */,
 				2859DEE11C8A29DE00397453 /* PlacesTableViewCell.swift */,
-				2858BF271C87423500D5784C /* IMG_0678.JPG */,
+				8BA8872C1C8E6D8100A67A8A /* IMG_0678.jpg */,
 				28EBEBC61C80D8560010738E /* AppDelegate.swift */,
 				28EBEBC81C80D8560010738E /* ViewController.swift */,
 				2859DECF1C8A06C300397453 /* CheckBox.swift */,
@@ -256,11 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2859DED31C8A076A00397453 /* uncheckedImage.png in Resources */,
-				2858BF281C87423500D5784C /* IMG_0678.JPG in Resources */,
 				28EBEBD11C80D8560010738E /* LaunchScreen.storyboard in Resources */,
-				2859DED41C8A076A00397453 /* checkedImage.png in Resources */,
+				8BA887311C8E6DA500A67A8A /* uncheckedImage.png in Resources */,
+				8BA887301C8E6DA500A67A8A /* checkedImage.png in Resources */,
 				28EBEBCE1C80D8560010738E /* Assets.xcassets in Resources */,
+				8BA8872D1C8E6D8100A67A8A /* IMG_0678.jpg in Resources */,
 				28EBEBCC1C80D8560010738E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +434,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_LOCATION = NO;
 				INFOPLIST_FILE = Aura1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,7 +447,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEPLOYMENT_LOCATION = NO;
 				INFOPLIST_FILE = Aura1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,6 +461,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Aura1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,6 +474,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Aura1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
