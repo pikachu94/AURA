@@ -17,9 +17,11 @@ class PlacesTableViewController: UITableViewController {
 
     override func viewDidLoad() {
        super.viewDidLoad()
-
+        tableView.contentInset.top = 20
         loadPLaces()
     }
+    
+    
     func loadPLaces(){
         
         
