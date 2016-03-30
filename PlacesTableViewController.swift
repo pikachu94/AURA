@@ -12,18 +12,14 @@ class PlacesTableViewController: UITableViewController {
     
     var places = [Place]()
     
-    
-    
-
     override func viewDidLoad() {
        super.viewDidLoad()
-        tableView.contentInset.top = 20
+        //tableView.contentInset.top = 20
         loadPLaces()
     }
     
     
     func loadPLaces(){
-        
         
         
         let place1 = Place(name: "Spiderhouse", description: "Food, Drinks, Coffee", categories: ["lgbtq": true, "bathroom": false, "open_carry": false, "wheelchair": true, "vegan": true, "quiet": false] )
@@ -50,8 +46,6 @@ class PlacesTableViewController: UITableViewController {
         
         places += [place1,place2, place3, place4, place5, place6, place7, place8, place9, place10, place11, place12, place13, place14, place15, place16, place17, place18, place19, place20]
     }
-    
-    
     
    
 
@@ -87,11 +81,18 @@ class PlacesTableViewController: UITableViewController {
         
         cell.namePlace.text = place.name
         cell.descriptionPlace.text = place.description
-        
-       
-    
 
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let placeviewcontroller = self.storyboard?.instantiateViewControllerWithIdentifier("detailed") as! DetailViewController
+
+        let r = indexPath.row
+        //print(places[r].name)
+        placeviewcontroller.place = places[r]
+        self.navigationController?.pushViewController(placeviewcontroller, animated: true)
+        
     }
     
     

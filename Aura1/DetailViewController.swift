@@ -1,37 +1,24 @@
 //
-//  MainScreen.swift
+//  DetailViewController.swift
 //  Aura1
 //
-//  Created by Paola Jara on 3/4/16.
+//  Created by Barbosa, Jamie L on 3/30/16.
 //  Copyright © 2016 Apple Inc. All rights reserved.
 //
 
 import UIKit
 
+class DetailViewController: UIViewController {
 
-class MainScreen: UIViewController {
-
-    @IBOutlet weak var checkBox1: CheckBox!
+    var place:Place?
+    @IBOutlet weak var placename: UILabel!
     
     
-    @IBOutlet weak var checkBox2: CheckBox!
-    
-    @IBOutlet weak var checkBox3: CheckBox!
-    @IBOutlet weak var checkBox4: CheckBox!
-    @IBOutlet weak var checkBox5: CheckBox!
-    @IBOutlet weak var checkBox6: CheckBox!
-    
-    @IBOutlet weak var goToButton: UIButton!
-    @IBAction func goToButton(sender: AnyObject) {
-        let ThirdVC = self.storyboard?.instantiateViewControllerWithIdentifier("PlacesNav")
-        self.presentViewController(ThirdVC!, animated: true, completion: nil)
-        
-        
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        placename.text = place!.name
     }
 
     override func didReceiveMemoryWarning() {
