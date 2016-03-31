@@ -112,6 +112,13 @@ class PlacesTableViewController: UITableViewController {
         
     }
     
+    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerlabel = UILabel()
+        
+        headerlabel.sizeToFit()
+        headerlabel.backgroundColor = UIColor(patternImage: UIImage(named: "logo.png")!)
+        return headerlabel
+    }
 
     
 }
