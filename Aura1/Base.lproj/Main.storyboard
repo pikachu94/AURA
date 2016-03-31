@@ -326,11 +326,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="hourslabel" text="hourslabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIU-2e-nhR">
                                 <rect key="frame" x="72" y="179" width="228" height="21"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaE-v1-YRi">
-                                <rect key="frame" x="72" y="519" width="216" height="21"/>
+                                <rect key="frame" x="72" y="519" width="240" height="21"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
                                 <state key="normal" title="website">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -356,6 +356,7 @@
                         <outlet property="hourslabel" destination="mIU-2e-nhR" id="hwG-rZ-G8g"/>
                         <outlet property="placename" destination="0Iv-wJ-5hZ" id="q7u-5t-Kfd"/>
                         <outlet property="quietlabel" destination="imw-sy-UJ7" id="sPa-rH-5gK"/>
+                        <outlet property="webbutton" destination="AaE-v1-YRi" id="9B0-Qe-mJg"/>
                         <outlet property="wheellabel" destination="R8y-oJ-7cA" id="DSa-aS-VOc"/>
                     </connections>
                 </viewController>

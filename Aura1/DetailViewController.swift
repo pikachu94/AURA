@@ -27,6 +27,8 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var hourslabel: UILabel!
     
+    @IBOutlet weak var webbutton: UIButton!
+    
     
     @IBAction func webbutton(sender: AnyObject) {
         let urlstring = NSURL(string: place!.web)
@@ -40,7 +42,7 @@ class DetailViewController: UIViewController {
         
         placename.text = place!.name
         hourslabel.text = place!.hours
-        
+        webbutton.setTitle(place!.web, forState: UIControlState.Normal)
         
         if(place!.categories["lgbtq"] == true){
             gaylabel.text = "Yes"

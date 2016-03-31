@@ -16,6 +16,8 @@ class PlacesTableViewController: UITableViewController {
        super.viewDidLoad()
         //tableView.contentInset.top = 20
         loadPLaces()
+     
+        
     }
     
     
@@ -58,7 +60,8 @@ class PlacesTableViewController: UITableViewController {
         let place34 = Place(name: "University Co-op", description: "Hangout", categories: ["lgbtq": false, "bathroom": false, "open_carry": false, "wheelchair": false, "vegan": false, "quiet": false], web: "http://www.universitycoop.com/" , hours: "Mon-Fri 8:30am-7:30pm, Sat 9:30am-6pm, Sun 11am-5pm")
         let place35 = Place(name: "Zen Japanese", description: "Hangout", categories: ["lgbtq": false, "bathroom": false, "open_carry": true, "wheelchair": false, "vegan": false, "quiet": false], web: "http://www.eatzen.com/" , hours: "Mon-Sat 11am-10pm, Sun 11:30am-10pm")
         
-        places += [place1,place2, place3, place4, place5, place6, place7, place8, place9, place10, place11, place12, place13, place14, place15, place16, place17, place18, place19, place20 place21, place22, place23, place24, place25, place26, place27, place28, place29, place30, place31, place32, place33, place34, place35]
+        places += [place1,place2, place3, place4, place5, place6, place7, place8, place9, place10, place11, place12, place13, place14, place15, place16, place17, place18, place19, place20 ,place21, place22, place23, place24, place25, place26, place27, place28, place29, place30, place31, place32, place33, place34, place35]
+        
     }
     
    
@@ -108,8 +111,6 @@ class PlacesTableViewController: UITableViewController {
         self.navigationController?.pushViewController(placeviewcontroller, animated: true)
         
     }
-    
-    
     
 
     
