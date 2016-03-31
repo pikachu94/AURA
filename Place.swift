@@ -14,23 +14,17 @@ class Place{
     var description: String
     
     var categories: [ String : Bool ]
-    
-    
-//    var lgbtq: Bool
-//    var bathroom: Bool
-//    var open_carry: Bool
-//    var wheelchair: Bool
-//    var vegan: Bool
-//    var quiet: Bool
+    var web : String
+    var hours : String
 
-
-    init( name: String, description: String, categories: Dictionary<String, Bool>)
+    init( name: String, description: String, categories: Dictionary<String, Bool>, web: String, hours: String)
 //    init( name: String, description: String, lgbtq: Bool, bathroom: Bool, open_carry: Bool, wheelchair: Bool, vegan: Bool, quiet: Bool)
 {
     self.name = name
     self.description = description
-    
     self.categories = categories
+    self.web = web
+    self.hours = hours
     
 //    self.lgbtq = lgbtq
 //    self.bathroom = bathroom

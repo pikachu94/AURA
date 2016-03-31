@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//import UIColor
 
 class MainScreen: UIViewController {
 
@@ -26,11 +26,11 @@ class MainScreen: UIViewController {
         let ThirdVC = self.storyboard?.instantiateViewControllerWithIdentifier("PlacesNav")
         self.presentViewController(ThirdVC!, animated: true, completion: nil)
         
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        goToButton.layer.borderWidth = 0.5
+        goToButton.layer.borderColor = UIColor.blackColor().CGColor
         // Do any additional setup after loading the view.
     }
 

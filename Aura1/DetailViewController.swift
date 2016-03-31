@@ -25,6 +25,13 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var quietlabel: UILabel!
     
+    @IBOutlet weak var hourslabel: UILabel!
+    
+    
+    @IBAction func webbutton(sender: AnyObject) {
+        let urlstring = NSURL(string: place!.web)
+        UIApplication.sharedApplication().openURL(urlstring!)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +39,9 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         placename.text = place!.name
+        hourslabel.text = place!.hours
+        
+        
         if(place!.categories["lgbtq"] == true){
             gaylabel.text = "Yes"
         }
@@ -78,7 +88,6 @@ class DetailViewController: UIViewController {
         else{
             quietlabel.text = "No"
         }
-        
         
         
         
