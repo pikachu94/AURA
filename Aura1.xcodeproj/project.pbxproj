@@ -24,6 +24,7 @@
 		8B5DC7671CAC30C600CEC7B1 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DC7661CAC30C600CEC7B1 /* logo.jpg */; settings = {ASSET_TAGS = (); }; };
 		8BA887301C8E6DA500A67A8A /* checkedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8872E1C8E6DA500A67A8A /* checkedImage.png */; settings = {ASSET_TAGS = (); }; };
 		8BA887311C8E6DA500A67A8A /* uncheckedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8872F1C8E6DA500A67A8A /* uncheckedImage.png */; settings = {ASSET_TAGS = (); }; };
+		8BB33B9E1CAC95670076071E /* dots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BB33B9D1CAC95670076071E /* dots.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		8B5DC7661CAC30C600CEC7B1 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../../../../Downloads/logo.jpg; sourceTree = "<group>"; };
 		8BA8872E1C8E6DA500A67A8A /* checkedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkedImage.png; sourceTree = SOURCE_ROOT; };
 		8BA8872F1C8E6DA500A67A8A /* uncheckedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheckedImage.png; sourceTree = SOURCE_ROOT; };
+		8BB33B9D1CAC95670076071E /* dots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dots.jpg; path = ../../../../Downloads/dots.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				8B40148D1CA22192004D5407 /* Placeviewcontroller.swift */,
 				2859DECF1C8A06C300397453 /* CheckBox.swift */,
 				28EBEBCA1C80D8560010738E /* Main.storyboard */,
+				8BB33B9D1CAC95670076071E /* dots.jpg */,
 				8B5DC7661CAC30C600CEC7B1 /* logo.jpg */,
 				8B5DC7641CAC287400CEC7B1 /* DetailViewController.swift */,
 				2859DED51C8A0F4100397453 /* MainScreen.swift */,
@@ -262,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB33B9E1CAC95670076071E /* dots.jpg in Resources */,
 				28EBEBD11C80D8560010738E /* LaunchScreen.storyboard in Resources */,
 				8BA887311C8E6DA500A67A8A /* uncheckedImage.png in Resources */,
 				8BA887301C8E6DA500A67A8A /* checkedImage.png in Resources */,

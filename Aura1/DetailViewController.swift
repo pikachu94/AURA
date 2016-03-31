@@ -13,12 +13,76 @@ class DetailViewController: UIViewController {
     var place:Place?
     @IBOutlet weak var placename: UILabel!
     
+    @IBOutlet weak var gaylabel: UILabel!
+    
+    @IBOutlet weak var bathlabel: UILabel!
+    
+    @IBOutlet weak var gunlabel: UILabel!
+    
+    @IBOutlet weak var wheellabel: UILabel!
+    
+    @IBOutlet weak var foodlabel: UILabel!
+    
+    @IBOutlet weak var quietlabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
         placename.text = place!.name
+        if(place!.categories["lgbtq"] == true){
+            gaylabel.text = "Yes"
+        }
+        else{
+            gaylabel.text = "No"
+        }
+        
+        
+        if(place!.categories["bathroom"] == true){
+            bathlabel.text = "Yes"
+        }
+        else{
+            bathlabel.text = "No"
+        }
+        
+        if(place!.categories["open_carry"] == true){
+            gunlabel.text = "Yes"
+        }
+        else{
+            gunlabel.text = "No"
+        }
+        
+        
+        if(place!.categories["wheelchair"] == true){
+            wheellabel.text = "Yes"
+        }
+        else{
+            wheellabel.text = "No"
+        }
+        
+        
+        if(place!.categories["vegan"] == true){
+            foodlabel.text = "Yes"
+        }
+        else{
+            foodlabel.text = "No"
+        }
+        
+        
+        
+        if(place!.categories["quiet"] == true){
+            quietlabel.text = "Yes"
+        }
+        else{
+            quietlabel.text = "No"
+        }
+        
+        
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -22,7 +22,7 @@ class PlacesTableViewController: UITableViewController {
     func loadPLaces(){
         
         
-        let place1 = Place(name: "Spiderhouse", description: "Food, Drinks, Coffee", categories: ["lgbtq": true, "bathroom": false, "open_carry": false, "wheelchair": true, "vegan": true, "quiet": false] )
+        let place1 = Place(name: "Spiderhouse Cafe", description: "Food, Drinks, Coffee", categories: ["lgbtq": true, "bathroom": false, "open_carry": false, "wheelchair": true, "vegan": true, "quiet": false] )
         let place2 = Place(name: "The Clay Pit", description: "Food", categories: ["lgbtq": true, "bathroom": false, "open_carry": false, "wheelchair": true, "vegan": true, "quiet": false])
         let place3 = Place(name: "Chipotle", description: "Food", categories: ["lgbtq": true, "bathroom": false, "open_carry": true, "wheelchair": true, "vegan": true, "quiet": false])
         let place4 = Place(name: "American Apparel", description: "Shopping", categories: ["lgbtq": true, "bathroom": false, "open_carry": false, "wheelchair": true, "vegan": false, "quiet": false])

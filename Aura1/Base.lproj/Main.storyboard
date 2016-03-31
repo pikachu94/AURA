@@ -58,7 +58,7 @@
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="17"/>
                                 <color key="tintColor" red="0.41070844240837701" green="0.0" blue="0.40411139333923013" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="titleShadowOffset" width="1" height="0.0"/>
-                                <state key="normal" title="Lets check it out!">
+                                <state key="normal" title="Let's check it out!">
                                     <color key="titleColor" red="0.23998150082058847" green="0.0" blue="0.2419113005050505" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="0.55992138319999996" blue="0.92852128450000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -75,14 +75,6 @@
                                     <action selector="goToButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8lL-s6-w6O"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ax7-mx-k2l">
-                                <rect key="frame" x="0.0" y="39" width="320" height="39"/>
-                                <color key="backgroundColor" red="0.10980392160000001" green="0.0" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="39" id="9HM-XQ-gDV"/>
-                                    <constraint firstAttribute="width" constant="320" id="ZjM-vh-rKy"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What are you interested in?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="353-gn-8gz">
                                 <rect key="frame" x="49" y="124" width="223" height="41"/>
                                 <constraints>
@@ -99,8 +91,8 @@
                                         <rect key="frame" x="20" y="208" width="30" height="30"/>
                                         <state key="normal" image="uncheckedImage.png"/>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Open-carry prohibited" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B1h-hx-JnZ">
-                                        <rect key="frame" x="58" y="121" width="176" height="15"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Open Carry Prohibited" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B1h-hx-JnZ">
+                                        <rect key="frame" x="58" y="121" width="176" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -108,12 +100,12 @@
                                         <rect key="frame" x="20" y="114" width="30" height="30"/>
                                         <state key="normal" image="uncheckedImage.png"/>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Quiet atmosphere" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hzT-CV-GCF">
-                                        <rect key="frame" x="58" y="262" width="176" height="15"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Quiet Atmosphere" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hzT-CV-GCF">
+                                        <rect key="frame" x="58" y="262" width="176" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="LGBTQIA friendly" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OUl-MD-Msx">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="LGBTQIA Friendly" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OUl-MD-Msx">
                                         <rect key="frame" x="58" y="26" width="176" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -137,24 +129,32 @@
                                         <state key="normal" image="uncheckedImage.png"/>
                                         <state key="selected" image="uncheckedImage.png"/>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Vegan/Vegetarian options" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dtx-b6-RuO">
-                                        <rect key="frame" x="58" y="215" width="176" height="15"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Vegan/Vegetarian Options" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dtx-b6-RuO">
+                                        <rect key="frame" x="58" y="215" width="176" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Wheelchair accessible" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F77-a3-fm6">
-                                        <rect key="frame" x="58" y="168" width="176" height="15"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Wheelchair Accessible" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F77-a3-fm6">
+                                        <rect key="frame" x="58" y="168" width="176" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Gender-neutral bathrooms" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uN8-RL-Ud5">
-                                        <rect key="frame" x="58" y="74" width="176" height="15"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" text="Gender-Neutral Bathrooms" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uN8-RL-Ud5">
+                                        <rect key="frame" x="58" y="74" width="179" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ax7-mx-k2l">
+                                <rect key="frame" x="0.0" y="39" width="320" height="39"/>
+                                <color key="backgroundColor" red="0.10980392160000001" green="0.0" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="9HM-XQ-gDV"/>
+                                    <constraint firstAttribute="width" constant="320" id="ZjM-vh-rKy"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration">
@@ -210,15 +210,15 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOw-yQ-LrQ">
-                                            <rect key="frame" x="14" y="49" width="119" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <rect key="frame" x="14" y="49" width="219" height="21"/>
+                                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Business name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yU8-E8-bDK">
-                                            <rect key="frame" x="14" y="18" width="219" height="23"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <rect key="frame" x="14" y="18" width="273" height="23"/>
+                                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                            <color key="textColor" red="0.65490196079999996" green="0.0" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -248,27 +248,140 @@
                         <viewControllerLayoutGuide type="top" id="O3q-li-Kpb"/>
                         <viewControllerLayoutGuide type="bottom" id="eSY-T1-FIi"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5cV-1e-l3t">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="gaylabel" id="5cV-1e-l3t">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="Placenamelabel" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Iv-wJ-5hZ">
-                                <rect key="frame" x="0.0" y="74" width="320" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" restorationIdentifier="Placenamelabel" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Iv-wJ-5hZ">
+                                <rect key="frame" x="72" y="93" width="177" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="22"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hours:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxt-Et-OgQ">
+                                <rect key="frame" x="72" y="161" width="59" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LGBTQIA Friendly:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ec2-tA-6Bn">
+                                <rect key="frame" x="72" y="208" width="158" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Open Carry Prohibited:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqz-Sp-sk0">
+                                <rect key="frame" x="72" y="306" width="194" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wheelchair Accessible:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yp7-pJ-hPH">
+                                <rect key="frame" x="72" y="357" width="194" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vegan/Vegetarian Options:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Kv-s7-cEx">
+                                <rect key="frame" x="72" y="401" width="216" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quiet Atmosphere:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kp-S9-fXs">
+                                <rect key="frame" x="72" y="450" width="158" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Website:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy2-d9-D5u">
+                                <rect key="frame" x="72" y="499" width="158" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender-Neutral Bathrooms:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30C-t8-CeC">
+                                <rect key="frame" x="72" y="257" width="225" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <color key="textColor" red="0.65490196078431373" green="0.0" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="gaylabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xx0-e9-TY2">
+                                <rect key="frame" x="72" y="228" width="59" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="bathlabel" text="bathlabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x78-dK-hrN">
+                                <rect key="frame" x="72" y="277" width="69" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="gunlabel" text="gunlabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1P-fk-pjN">
+                                <rect key="frame" x="72" y="328" width="59" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="wheellabel" text="wheellabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8y-oJ-7cA">
+                                <rect key="frame" x="72" y="376" width="82" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="foodlabel" text="foodlabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7Q-e5-qAM">
+                                <rect key="frame" x="72" y="421" width="75" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="quietlabel" text="quietlabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imw-sy-UJ7">
+                                <rect key="frame" x="72" y="470" width="75" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dots.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cN8-wF-iZe">
+                                <rect key="frame" x="49" y="164" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dots.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dyY-oG-vLE">
+                                <rect key="frame" x="50" y="211" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dots.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h0M-Rv-nKq">
+                                <rect key="frame" x="50" y="309" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dots.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qq5-fb-FMz">
+                                <rect key="frame" x="50" y="502" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dots.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Fl0-aF-Gj7">
+                                <rect key="frame" x="50" y="360" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dots.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7En-AI-8XA">
+                                <rect key="frame" x="49" y="404" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dots.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Nlr-oE-0hV">
+                                <rect key="frame" x="50" y="453" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dots.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L34-Ab-K1j">
+                                <rect key="frame" x="50" y="260" width="15" height="15"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Iv-wJ-5hZ" firstAttribute="centerX" secondItem="5cV-1e-l3t" secondAttribute="centerX" id="PlG-2O-IkX"/>
+                            <constraint firstItem="0Iv-wJ-5hZ" firstAttribute="leading" secondItem="5cV-1e-l3t" secondAttribute="leadingMargin" constant="52" id="TdY-GZ-JdZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Iv-wJ-5hZ" secondAttribute="trailing" constant="51" id="pc2-3s-1Uf"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8l4-VI-sOd"/>
                     <connections>
+                        <outlet property="bathlabel" destination="x78-dK-hrN" id="ImY-pq-Xa9"/>
+                        <outlet property="foodlabel" destination="n7Q-e5-qAM" id="BKl-UJ-Qdj"/>
+                        <outlet property="gaylabel" destination="Xx0-e9-TY2" id="DzC-S0-RVh"/>
+                        <outlet property="gunlabel" destination="B1P-fk-pjN" id="RHp-yX-MVl"/>
                         <outlet property="placename" destination="0Iv-wJ-5hZ" id="q7u-5t-Kfd"/>
+                        <outlet property="quietlabel" destination="imw-sy-UJ7" id="sPa-rH-5gK"/>
+                        <outlet property="wheellabel" destination="R8y-oJ-7cA" id="DSa-aS-VOc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="16C-tO-kkt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1104" y="103"/>
+            <point key="canvasLocation" x="1099" y="104"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="x8j-ab-zdW">
@@ -291,6 +404,7 @@
     </scenes>
     <resources>
         <image name="IMG_0678.jpg" width="360" height="360"/>
+        <image name="dots.jpg" width="360" height="360"/>
         <image name="logo.jpg" width="360" height="360"/>
         <image name="uncheckedImage.png" width="256" height="256"/>
     </resources>
