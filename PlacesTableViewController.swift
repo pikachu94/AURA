@@ -10,12 +10,20 @@ import UIKit
 
 class PlacesTableViewController: UITableViewController {
     
-    var places = [Place]()
+    var Allplaces = [Place]()
+    var selectPlaces = [Place]()
+    
     
     override func viewDidLoad() {
        super.viewDidLoad()
         //tableView.contentInset.top = 20
         loadPLaces()
+        
+        
+        let navImage:UIImage = UIImage(named: "aura_header_pic.png")!
+        UINavigationBar.appearance().setBackgroundImage(navImage, forBarMetrics: .Default)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+  
      
         
     }
@@ -60,7 +68,41 @@ class PlacesTableViewController: UITableViewController {
         let place34 = Place(name: "University Co-op", description: "Hangout", categories: ["lgbtq": false, "bathroom": false, "open_carry": false, "wheelchair": false, "vegan": false, "quiet": false], web: "http://www.universitycoop.com/" , hours: "Mon-Fri 8:30am-7:30pm, Sat 9:30am-6pm, Sun 11am-5pm")
         let place35 = Place(name: "Zen Japanese", description: "Hangout", categories: ["lgbtq": false, "bathroom": false, "open_carry": true, "wheelchair": false, "vegan": false, "quiet": false], web: "http://www.eatzen.com/" , hours: "Mon-Sat 11am-10pm, Sun 11:30am-10pm")
         
-        places += [place1,place2, place3, place4, place5, place6, place7, place8, place9, place10, place11, place12, place13, place14, place15, place16, place17, place18, place19, place20 ,place21, place22, place23, place24, place25, place26, place27, place28, place29, place30, place31, place32, place33, place34, place35]
+        Allplaces += [place1,place2, place3, place4, place5, place6, place7, place8, place9, place10, place11, place12, place13, place14, place15, place16, place17, place18, place19, place20 ,place21, place22, place23, place24, place25, place26, place27, place28, place29, place30, place31, place32, place33, place34, place35]
+        
+        
+        
+        
+       // if lgbtqia == true
+        //{
+            for placesDic:Place in Allplaces
+            {
+                if (  (lgbtqia==true && placesDic.categories["lgbtq"] == true) || (genderNeeutral==true && placesDic.categories["bathroom"] == true) || (openCarry==true && placesDic.categories["open_carry"] == true) || (wheelChair==true && placesDic.categories["wheelchair"] == true)  || (vegan==true && placesDic.categories["vegan"] == true) || (quiet==true && placesDic.categories["quiet"] == true))
+                {
+                    selectPlaces.append(placesDic)
+                    
+                }
+                           // }
+        }
+        /*if lgbtqia == true
+        {
+            for placesDic:Place in Allplaces
+            {
+                if placesDic.categories["lgbtq"] == true
+                {
+                    selectPlaces.append(placesDic)
+                    
+                }
+                
+                
+            }
+        }
+        
+        
+        for places in selectPlaces
+        {
+            if places
+        }*/
         
     }
     
@@ -80,7 +122,7 @@ class PlacesTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return places.count
+        return selectPlaces.count
     }
 
     
@@ -94,7 +136,7 @@ class PlacesTableViewController: UITableViewController {
         
         let cellIdentifier = "PlacesTableViewCell"
         let cell = tableView.dequeueReusableCellWithIdentifier("cellIdentifier", forIndexPath: indexPath) as! PlacesTableViewCell
-        let place = places[indexPath.row]
+        let place = selectPlaces[indexPath.row]
         
         cell.namePlace.text = place.name
         cell.descriptionPlace.text = place.description
@@ -107,18 +149,18 @@ class PlacesTableViewController: UITableViewController {
 
         let r = indexPath.row
         //print(places[r].name)
-        placeviewcontroller.place = places[r]
+        placeviewcontroller.place = selectPlaces[r]
         self.navigationController?.pushViewController(placeviewcontroller, animated: true)
         
     }
     
-    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+   /* override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerlabel = UILabel()
         
         headerlabel.sizeToFit()
         headerlabel.backgroundColor = UIColor(patternImage: UIImage(named: "logo.png")!)
         return headerlabel
-    }
+    }*/
 
     
 }

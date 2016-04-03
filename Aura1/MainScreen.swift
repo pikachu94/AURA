@@ -9,6 +9,15 @@
 import UIKit
 //import UIColor
 
+
+var lgbtqia = false;
+var genderNeeutral = false;
+var openCarry = false;
+var wheelChair = false;
+var vegan = false;
+var quiet = false;
+
+
 class MainScreen: UIViewController {
 
     @IBOutlet weak var checkBox1: CheckBox!
@@ -25,6 +34,47 @@ class MainScreen: UIViewController {
     @IBAction func goToButton(sender: AnyObject) {
         let ThirdVC = self.storyboard?.instantiateViewControllerWithIdentifier("PlacesNav")
         self.presentViewController(ThirdVC!, animated: true, completion: nil)
+        
+        
+        
+        
+        if (checkBox1.isChecked == true)
+            
+            
+        {
+            lgbtqia = true;
+        }
+        
+        if (checkBox2.isChecked == true)
+            
+        {
+            genderNeeutral = true;
+        }
+        if(checkBox3.isChecked == true)
+        {
+            openCarry = true;
+            
+        }
+        if(checkBox4.isChecked == true)
+        {
+            wheelChair = true;
+            
+        }
+        if(checkBox5.isChecked == true)
+        {
+            vegan = true;
+        }
+        if(checkBox6.isChecked == true)
+            
+        {
+            quiet = true;
+            
+        }
+        
+        
+      
+        
+
         
     }
     override func viewDidLoad() {

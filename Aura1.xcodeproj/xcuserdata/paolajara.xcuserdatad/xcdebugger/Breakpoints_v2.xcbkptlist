@@ -283,13 +283,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlacesTableViewController.swift"
-            timestampString = "478817665.04996"
+            timestampString = "481417906.037187"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "PlacesTableViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -299,13 +299,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlacesTableViewController.swift"
-            timestampString = "478817665.04996"
+            timestampString = "481417906.037187"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "PlacesTableViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
