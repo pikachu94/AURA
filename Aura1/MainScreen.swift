@@ -80,6 +80,7 @@ class MainScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         goToButton.layer.borderWidth = 0.5
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
         //goToButton.layer.borderColor = UIColor.blackColor().CGColor
         // Do any additional setup after loading the view.
         

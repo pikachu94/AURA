@@ -29,6 +29,7 @@ class PlacesTableViewController: UITableViewController {
     
     @IBAction func backbuttonpressed(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
     }
     
     func loadPLaces(){
