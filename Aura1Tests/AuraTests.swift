@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import Aura1
+@testable import Aura
 
-class Aura1Tests: XCTestCase {
+class AuraTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

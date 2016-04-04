@@ -80,8 +80,9 @@ class MainScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         goToButton.layer.borderWidth = 0.5
-        goToButton.layer.borderColor = UIColor.blackColor().CGColor
+        //goToButton.layer.borderColor = UIColor.blackColor().CGColor
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {

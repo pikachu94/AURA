@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Aura1UITests: XCTestCase {
+class AuraUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

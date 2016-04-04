@@ -11,20 +11,20 @@
 		2859DED61C8A0F4100397453 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DED51C8A0F4100397453 /* MainScreen.swift */; };
 		2859DEE21C8A29DE00397453 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DEE11C8A29DE00397453 /* PlacesTableViewCell.swift */; };
 		2859DEE41C8A2B7400397453 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859DEE31C8A2B7400397453 /* Place.swift */; };
-		2878CAEA1CB1DA0A007A9C47 /* aura_header_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2878CAE91CB1DA0A007A9C47 /* aura_header_pic.png */; };
 		28A1C46F1C89FC24003233B6 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A1C46E1C89FC24003233B6 /* PlacesTableViewController.swift */; };
 		28EBEBC71C80D8560010738E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBC61C80D8560010738E /* AppDelegate.swift */; };
 		28EBEBC91C80D8560010738E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBC81C80D8560010738E /* ViewController.swift */; };
 		28EBEBCC1C80D8560010738E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EBEBCA1C80D8560010738E /* Main.storyboard */; };
 		28EBEBCE1C80D8560010738E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EBEBCD1C80D8560010738E /* Assets.xcassets */; };
 		28EBEBD11C80D8560010738E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EBEBCF1C80D8560010738E /* LaunchScreen.storyboard */; };
-		28EBEBDC1C80D8560010738E /* Aura1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBDB1C80D8560010738E /* Aura1Tests.swift */; };
-		28EBEBE71C80D8560010738E /* Aura1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBE61C80D8560010738E /* Aura1UITests.swift */; };
+		28EBEBDC1C80D8560010738E /* AuraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBDB1C80D8560010738E /* AuraTests.swift */; };
+		28EBEBE71C80D8560010738E /* AuraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBEBE61C80D8560010738E /* AuraUITests.swift */; };
 		8B5DC7651CAC287400CEC7B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DC7641CAC287400CEC7B1 /* DetailViewController.swift */; };
 		8BA887301C8E6DA500A67A8A /* checkedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8872E1C8E6DA500A67A8A /* checkedImage.png */; };
 		8BA887311C8E6DA500A67A8A /* uncheckedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8872F1C8E6DA500A67A8A /* uncheckedImage.png */; };
 		8BB33BA01CACA6AB0076071E /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB33B9F1CACA6AB0076071E /* dots.png */; };
 		8BB33BA21CACA75E0076071E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB33BA11CACA75E0076071E /* logo.png */; };
+		8BBE351C1CB1EA9100010FFB /* aura_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBE351B1CB1EA9100010FFB /* aura_header.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,26 +49,26 @@
 		2859DED51C8A0F4100397453 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		2859DEE11C8A29DE00397453 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesTableViewCell.swift; path = ../PlacesTableViewCell.swift; sourceTree = "<group>"; };
 		2859DEE31C8A2B7400397453 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = ../Place.swift; sourceTree = "<group>"; };
-		2878CAE91CB1DA0A007A9C47 /* aura_header_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aura_header_pic.png; path = ../../../Desktop/aura_header_pic.png; sourceTree = "<group>"; };
 		28A1C46E1C89FC24003233B6 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesTableViewController.swift; path = ../PlacesTableViewController.swift; sourceTree = "<group>"; };
-		28EBEBC31C80D8560010738E /* Aura1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aura1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EBEBC31C80D8560010738E /* Aura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EBEBC61C80D8560010738E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28EBEBC81C80D8560010738E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28EBEBCB1C80D8560010738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28EBEBCD1C80D8560010738E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28EBEBD01C80D8560010738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28EBEBD21C80D8560010738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28EBEBD71C80D8560010738E /* Aura1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aura1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28EBEBDB1C80D8560010738E /* Aura1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aura1Tests.swift; sourceTree = "<group>"; };
+		28EBEBD71C80D8560010738E /* Aura.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aura.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EBEBDB1C80D8560010738E /* AuraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraTests.swift; sourceTree = "<group>"; };
 		28EBEBDD1C80D8560010738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28EBEBE21C80D8560010738E /* Aura1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aura1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28EBEBE61C80D8560010738E /* Aura1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aura1UITests.swift; sourceTree = "<group>"; };
+		28EBEBE21C80D8560010738E /* Aura.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aura.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EBEBE61C80D8560010738E /* AuraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraUITests.swift; sourceTree = "<group>"; };
 		28EBEBE81C80D8560010738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B5DC7641CAC287400CEC7B1 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8BA8872E1C8E6DA500A67A8A /* checkedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkedImage.png; sourceTree = SOURCE_ROOT; };
 		8BA8872F1C8E6DA500A67A8A /* uncheckedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheckedImage.png; sourceTree = SOURCE_ROOT; };
 		8BB33B9F1CACA6AB0076071E /* dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dots.png; sourceTree = SOURCE_ROOT; };
 		8BB33BA11CACA75E0076071E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+		8BBE351B1CB1EA9100010FFB /* aura_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aura_header.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 		28EBEBBA1C80D8560010738E = {
 			isa = PBXGroup;
 			children = (
-				28EBEBC51C80D8560010738E /* Aura1 */,
-				28EBEBDA1C80D8560010738E /* Aura1Tests */,
-				28EBEBE51C80D8560010738E /* Aura1UITests */,
+				28EBEBC51C80D8560010738E /* Aura */,
+				28EBEBDA1C80D8560010738E /* AuraTests */,
+				28EBEBE51C80D8560010738E /* AuraUITests */,
 				28EBEBC41C80D8560010738E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,23 +109,23 @@
 		28EBEBC41C80D8560010738E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28EBEBC31C80D8560010738E /* Aura1.app */,
-				28EBEBD71C80D8560010738E /* Aura1Tests.xctest */,
-				28EBEBE21C80D8560010738E /* Aura1UITests.xctest */,
+				28EBEBC31C80D8560010738E /* Aura.app */,
+				28EBEBD71C80D8560010738E /* Aura.xctest */,
+				28EBEBE21C80D8560010738E /* Aura.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28EBEBC51C80D8560010738E /* Aura1 */ = {
+		28EBEBC51C80D8560010738E /* Aura */ = {
 			isa = PBXGroup;
 			children = (
-				2878CAE91CB1DA0A007A9C47 /* aura_header_pic.png */,
 				8BB33B9F1CACA6AB0076071E /* dots.png */,
 				8BA8872E1C8E6DA500A67A8A /* checkedImage.png */,
 				8BA8872F1C8E6DA500A67A8A /* uncheckedImage.png */,
 				8BB33BA11CACA75E0076071E /* logo.png */,
 				28EBEBD21C80D8560010738E /* Info.plist */,
 				28EBEBCF1C80D8560010738E /* LaunchScreen.storyboard */,
+				8BBE351B1CB1EA9100010FFB /* aura_header.png */,
 				28EBEBCA1C80D8560010738E /* Main.storyboard */,
 				2859DEE31C8A2B7400397453 /* Place.swift */,
 				28A1C46E1C89FC24003233B6 /* PlacesTableViewController.swift */,
@@ -137,33 +137,36 @@
 				2859DED51C8A0F4100397453 /* MainScreen.swift */,
 				28EBEBCD1C80D8560010738E /* Assets.xcassets */,
 			);
+			name = Aura;
 			path = Aura1;
 			sourceTree = "<group>";
 		};
-		28EBEBDA1C80D8560010738E /* Aura1Tests */ = {
+		28EBEBDA1C80D8560010738E /* AuraTests */ = {
 			isa = PBXGroup;
 			children = (
-				28EBEBDB1C80D8560010738E /* Aura1Tests.swift */,
+				28EBEBDB1C80D8560010738E /* AuraTests.swift */,
 				28EBEBDD1C80D8560010738E /* Info.plist */,
 			);
+			name = AuraTests;
 			path = Aura1Tests;
 			sourceTree = "<group>";
 		};
-		28EBEBE51C80D8560010738E /* Aura1UITests */ = {
+		28EBEBE51C80D8560010738E /* AuraUITests */ = {
 			isa = PBXGroup;
 			children = (
-				28EBEBE61C80D8560010738E /* Aura1UITests.swift */,
+				28EBEBE61C80D8560010738E /* AuraUITests.swift */,
 				28EBEBE81C80D8560010738E /* Info.plist */,
 			);
+			name = AuraUITests;
 			path = Aura1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28EBEBC21C80D8560010738E /* Aura1 */ = {
+		28EBEBC21C80D8560010738E /* Aura */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28EBEBEB1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1" */;
+			buildConfigurationList = 28EBEBEB1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura" */;
 			buildPhases = (
 				28EBEBBF1C80D8560010738E /* Sources */,
 				28EBEBC01C80D8560010738E /* Frameworks */,
@@ -173,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = Aura1;
+			name = Aura;
 			productName = Aura1;
-			productReference = 28EBEBC31C80D8560010738E /* Aura1.app */;
+			productReference = 28EBEBC31C80D8560010738E /* Aura.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28EBEBD61C80D8560010738E /* Aura1Tests */ = {
+		28EBEBD61C80D8560010738E /* AuraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28EBEBEE1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1Tests" */;
+			buildConfigurationList = 28EBEBEE1C80D8560010738E /* Build configuration list for PBXNativeTarget "AuraTests" */;
 			buildPhases = (
 				28EBEBD31C80D8560010738E /* Sources */,
 				28EBEBD41C80D8560010738E /* Frameworks */,
@@ -191,14 +194,14 @@
 			dependencies = (
 				28EBEBD91C80D8560010738E /* PBXTargetDependency */,
 			);
-			name = Aura1Tests;
+			name = AuraTests;
 			productName = Aura1Tests;
-			productReference = 28EBEBD71C80D8560010738E /* Aura1Tests.xctest */;
+			productReference = 28EBEBD71C80D8560010738E /* Aura.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		28EBEBE11C80D8560010738E /* Aura1UITests */ = {
+		28EBEBE11C80D8560010738E /* AuraUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28EBEBF11C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1UITests" */;
+			buildConfigurationList = 28EBEBF11C80D8560010738E /* Build configuration list for PBXNativeTarget "AuraUITests" */;
 			buildPhases = (
 				28EBEBDE1C80D8560010738E /* Sources */,
 				28EBEBDF1C80D8560010738E /* Frameworks */,
@@ -209,9 +212,9 @@
 			dependencies = (
 				28EBEBE41C80D8560010738E /* PBXTargetDependency */,
 			);
-			name = Aura1UITests;
+			name = AuraUITests;
 			productName = Aura1UITests;
-			productReference = 28EBEBE21C80D8560010738E /* Aura1UITests.xctest */;
+			productReference = 28EBEBE21C80D8560010738E /* Aura.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28EBEBBE1C80D8560010738E /* Build configuration list for PBXProject "Aura1" */;
+			buildConfigurationList = 28EBEBBE1C80D8560010738E /* Build configuration list for PBXProject "Aura" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -253,9 +256,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28EBEBC21C80D8560010738E /* Aura1 */,
-				28EBEBD61C80D8560010738E /* Aura1Tests */,
-				28EBEBE11C80D8560010738E /* Aura1UITests */,
+				28EBEBC21C80D8560010738E /* Aura */,
+				28EBEBD61C80D8560010738E /* AuraTests */,
+				28EBEBE11C80D8560010738E /* AuraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,8 +270,8 @@
 			files = (
 				8BB33BA21CACA75E0076071E /* logo.png in Resources */,
 				8BB33BA01CACA6AB0076071E /* dots.png in Resources */,
-				2878CAEA1CB1DA0A007A9C47 /* aura_header_pic.png in Resources */,
 				28EBEBD11C80D8560010738E /* LaunchScreen.storyboard in Resources */,
+				8BBE351C1CB1EA9100010FFB /* aura_header.png in Resources */,
 				8BA887311C8E6DA500A67A8A /* uncheckedImage.png in Resources */,
 				8BA887301C8E6DA500A67A8A /* checkedImage.png in Resources */,
 				28EBEBCE1C80D8560010738E /* Assets.xcassets in Resources */,
@@ -312,7 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EBEBDC1C80D8560010738E /* Aura1Tests.swift in Sources */,
+				28EBEBDC1C80D8560010738E /* AuraTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EBEBE71C80D8560010738E /* Aura1UITests.swift in Sources */,
+				28EBEBE71C80D8560010738E /* AuraUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		28EBEBD91C80D8560010738E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28EBEBC21C80D8560010738E /* Aura1 */;
+			target = 28EBEBC21C80D8560010738E /* Aura */;
 			targetProxy = 28EBEBD81C80D8560010738E /* PBXContainerItemProxy */;
 		};
 		28EBEBE41C80D8560010738E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28EBEBC21C80D8560010738E /* Aura1 */;
+			target = 28EBEBC21C80D8560010738E /* Aura */;
 			targetProxy = 28EBEBE31C80D8560010738E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -451,7 +454,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Aura;
 			};
 			name = Debug;
 		};
@@ -464,7 +467,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Aura;
 			};
 			name = Release;
 		};
@@ -476,8 +479,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aura1.app/Aura1";
+				PRODUCT_NAME = Aura;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aura.app/Aura";
 			};
 			name = Debug;
 		};
@@ -489,8 +492,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aura1.app/Aura1";
+				PRODUCT_NAME = Aura;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aura.app/Aura";
 			};
 			name = Release;
 		};
@@ -500,7 +503,7 @@
 				INFOPLIST_FILE = Aura1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Aura;
 				TEST_TARGET_NAME = Aura1;
 				USES_XCTRUNNER = YES;
 			};
@@ -512,7 +515,7 @@
 				INFOPLIST_FILE = Aura1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Aura1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Aura;
 				TEST_TARGET_NAME = Aura1;
 				USES_XCTRUNNER = YES;
 			};
@@ -521,7 +524,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28EBEBBE1C80D8560010738E /* Build configuration list for PBXProject "Aura1" */ = {
+		28EBEBBE1C80D8560010738E /* Build configuration list for PBXProject "Aura" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EBEBE91C80D8560010738E /* Debug */,
@@ -530,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28EBEBEB1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1" */ = {
+		28EBEBEB1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EBEBEC1C80D8560010738E /* Debug */,
@@ -539,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28EBEBEE1C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1Tests" */ = {
+		28EBEBEE1C80D8560010738E /* Build configuration list for PBXNativeTarget "AuraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EBEBEF1C80D8560010738E /* Debug */,
@@ -548,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28EBEBF11C80D8560010738E /* Build configuration list for PBXNativeTarget "Aura1UITests" */ = {
+		28EBEBF11C80D8560010738E /* Build configuration list for PBXNativeTarget "AuraUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28EBEBF21C80D8560010738E /* Debug */,
