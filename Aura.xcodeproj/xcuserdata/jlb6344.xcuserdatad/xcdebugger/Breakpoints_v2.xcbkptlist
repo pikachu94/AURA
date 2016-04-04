@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Aura1/MainScreen.swift"
@@ -17,12 +17,74 @@
             endingLineNumber = "33"
             landmarkName = "MainScreen"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura.MainScreen.goToButton.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIButton&gt;"
+                  moduleName = "Aura"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlb6344/Documents/App/AURA/Aura1/MainScreen.swift"
+                  timestampString = "481475572.129762"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura.MainScreen.goToButton.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIButton&gt;"
+                  moduleName = "Aura"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlb6344/Documents/App/AURA/Aura1/MainScreen.swift"
+                  timestampString = "481475572.129886"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura.MainScreen.init (Aura.MainScreen.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Aura.MainScreen"
+                  moduleName = "Aura"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlb6344/Documents/App/AURA/Aura1/MainScreen.swift"
+                  timestampString = "481475572.130002"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "434">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Aura.MainScreen.init (Aura.MainScreen.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;Aura.MainScreen&gt;"
+                  moduleName = "Aura"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlb6344/Documents/App/AURA/Aura1/MainScreen.swift"
+                  timestampString = "481475572.130111"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "345">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Aura1/DetailViewController.swift"
@@ -38,7 +100,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Aura1/DetailViewController.swift"
